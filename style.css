@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Inconsolata', monospace;
+}
+
+.cabecario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+.conta {
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.conta:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+span {
+    color: blueviolet;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+
+}
+
+img {
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(162, 43, 226);
+    transition: 3s all;
+    
+}
